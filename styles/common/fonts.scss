@@ -2,22 +2,22 @@
 	font-family: Montserrat;
 	font-style: normal;
 	font-weight: 400;
-	src: local("demi-2014"), local("din-2014_regular"),
-	url("/assets/fonts/Montserrat") format("opentype")
+	src: local("montserrat"), local("montserrat_regular"),
+	url("/assets/fonts/Montserrat-Regular.ttf") format("opentype")
 }
 
 @font-face {
-	font-family: demi-2014;
+	font-family: Montserrat;
 	font-style: normal;
 	font-weight: 600;
-	src: local("demi-2014"), local("din-2014_demi"),
-	url("/local/assets/fonts/din-2014/din-2014_demi.otf") format("opentype")
+	src: local("montserrat"), local("montserrat_regular"),
+	url("/assets/fonts/Montserrat-Bold.ttf") format("opentype")
 }
-
-@font-face {
-	font-family: demi-2014;
-	font-style: normal;
-	font-weight: 700;
-	src: local("demi-2014"), local("din-2014_bold"),
-	url("/local/assets/fonts/din-2014/din-2014_bold.otf") format("opentype")
-}
+//
+//@font-face {
+//	font-family: demi-2014;
+//	font-style: normal;
+//	font-weight: 700;
+//	src: local("demi-2014"), local("din-2014_bold"),
+//	url("/local/assets/fonts/din-2014/din-2014_bold.otf") format("opentype")
+//}
